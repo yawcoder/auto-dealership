@@ -1,10 +1,10 @@
-AFAJAEY Automobile – Online Showroom 🚗
+# AFAJAEY Automobile – Online Showroom 🚗
 
 An online car dealership platform for AFAJAEY Automobile, built with Next.js and Firebase.
 The system allows customers to browse available cars and enables dealership staff (admins) to manage car listings via a secure dashboard.
 
-✨ Features
-👤 Customer
+## ✨ Features
+### 👤 Customer
 
 Browse all available vehicles
 
@@ -16,7 +16,7 @@ Create a customer account (basic profile)
 
 Quick “Call Now” and WhatsApp contact links
 
-🔑 Admin
+### 🔑 Admin
 
 Secure admin login
 
@@ -28,7 +28,7 @@ Delete sold/unavailable vehicles
 
 Upload and manage photos
 
-⚙️ System
+### ⚙️ System
 
 Firebase Firestore database for cars, users, and settings
 
@@ -38,18 +38,18 @@ Firebase Auth for authentication
 
 Deployed on Vercel/Netlify (CI/CD with GitHub Actions)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: Next.js (React)
 
 Backend & DB: Firebase (Firestore, Storage, Auth)
 
 
-📸 Screenshots (Optional)
+## 📸 Screenshots (Optional)
 
 (Add mockups of homepage, car listing, and admin dashboard once UI is ready)
 
-🗺️ Roadmap
+## 🗺️ Roadmap
 
  MVP: Customer browse cars + admin CRUD
 
@@ -59,12 +59,12 @@ Backend & DB: Firebase (Firestore, Storage, Auth)
 
  Payment integration (future)
 
-👥 Contributors
+### 👥 Contributors
 
 Team Name: DevSquad
 
 Members: [List names & IDs]
 
-📜 License
+#### 📜 License
 
 This project is for academic purposes under DCIT 208 – Software Engineering, Semester II 2024/2025, University of Ghana
