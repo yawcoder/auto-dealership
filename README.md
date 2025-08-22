@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AFAJAEY Automobile – Online Showroom 🚗
 
-## Getting Started
+An online car dealership platform for AFAJAEY Automobile, built with Next.js and Firebase.
+The system allows customers to browse available cars and enables dealership staff (admins) to manage car listings via a secure dashboard.
 
-First, run the development server:
+✨ Features
+👤 Customer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Browse all available vehicles
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Filter cars by model and category
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+View detailed information (price, year, engine, mileage, photos)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a customer account (basic profile)
 
-## Learn More
+Quick “Call Now” and WhatsApp contact links
 
-To learn more about Next.js, take a look at the following resources:
+🔑 Admin
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Secure admin login
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add new vehicles
 
-## Deploy on Vercel
+Edit existing vehicle details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Delete sold/unavailable vehicles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Upload and manage photos
+
+⚙️ System
+
+Firebase Firestore database for cars, users, and settings
+
+Firebase Storage for images
+
+Firebase Auth for authentication
+
+Deployed on Vercel/Netlify (CI/CD with GitHub Actions)
+
+🛠️ Tech Stack
+
+Frontend: Next.js (React)
+
+Backend & DB: Firebase (Firestore, Storage, Auth)
+
+
+📸 Screenshots (Optional)
+
+(Add mockups of homepage, car listing, and admin dashboard once UI is ready)
+
+🗺️ Roadmap
+
+ MVP: Customer browse cars + admin CRUD
+
+ Advanced filters & search
+
+ Order/Inquiries tracking
+
+ Payment integration (future)
+
+👥 Contributors
+
+Team Name: DevSquad
+
+Members: [List names & IDs]
+
+📜 License
+
+This project is for academic purposes under DCIT 208 – Software Engineering, Semester II 2024/2025, University of Ghana
