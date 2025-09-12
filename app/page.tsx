@@ -8,10 +8,15 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Button } from "@/components/ui/button";
+import SearchBar from "@/components/SearchBar";
+import FeaturedCars from "@/components/FeaturedCars";
+import CallToActionBanner from "@/components/CallToActionBanner";
+import Footer from "@/components/Footer";
 import Autoplay from "embla-carousel-autoplay";
 
 export default function Home() {
-  // Mockup car images - these will be replaced with Firebase data later
+  // Mockup car images. these will be replaced with Firebase data later
   const mockupCarImages = [
     "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&h=600&fit=crop&crop=center",
     "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop&crop=center",
@@ -20,6 +25,11 @@ export default function Home() {
     "https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&h=600&fit=crop&crop=center",
     "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=600&fit=crop&crop=center"
   ];
+
+  const handleSearch = (category: string, model: string) => {
+    // TODO: Implement search functionality
+    console.log('Searching for:', { category, model });
+  };
 
   return (
     <main className="min-h-screen bg-background">
@@ -64,16 +74,21 @@ export default function Home() {
               Discover our carefully curated selection of compact cars and sedans.
             </p>
           </div>
+
+          {/* Search Bar Section */}
+          <SearchBar onSearch={handleSearch} />
           
         </div>
       </section>
 
-      {/* Additional content sections can be added here */}
-      <section className="w-full py-16 bg-muted/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          
-        </div>
-      </section>
+      {/* Featured Cars Section */}
+      <FeaturedCars />
+
+      {/* Call-to-Action Banner */}
+      <CallToActionBanner />
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }
