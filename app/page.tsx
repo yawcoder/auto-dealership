@@ -8,7 +8,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Button } from "@/components/ui/button";
 import SearchBar from "@/components/SearchBar";
 import FeaturedCars from "@/components/FeaturedCars";
 import CallToActionBanner from "@/components/CallToActionBanner";
